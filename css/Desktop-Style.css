@@ -1,0 +1,70 @@
+@media (min-width: 777px) {
+    :root {
+        --PaleBlue: hsl(243, 100%, 93%);
+        --Grayish-Blue: hsl(229, 7%, 55%);
+        --Dark-Blue: hsl(228, 56%, 26%);
+        --Very-Dark-Blue: hsl(229, 57%, 11%);
+    }
+
+    body{
+        background-color: var(--Very-Dark-Blue);
+        background-image: none;
+
+        background-image: url(../images/bg-desktop.png);
+        background-size: auto;
+        background-position-x: left;
+        background-position-y: bottom;
+    }
+
+    #box-content{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #contain_options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        
+        width: 300px;
+    }
+
+    #contain_stats {
+        position: relative;
+        margin-left: 10px;
+
+        width: 460px;
+        top: 16px;
+    }
+
+    #contain_stats > p {
+        position: relative;
+        right: 90px;
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    #botao {
+        position: relative;
+        left: 245px;
+        top: 0.2vh;
+    }
+
+    section {
+        height: 20px;
+        width: 350px;
+    }
+
+    #linear {
+        height: 15px;
+        width: 260px;
+    }
+
+    #bigGb {
+        top: -130px;
+        left: 140px;
+    }
+}
